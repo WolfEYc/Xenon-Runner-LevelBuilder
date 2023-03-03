@@ -21,5 +21,12 @@
     "com.unity.visualeffectgraph": "14.0.6",
     "com.unity.shadergraph": "14.0.6",
     "com.unity.textmeshpro": "3.0.6"
-  }
+  },
+  "samples": [
+    {
+        "displayName": "Xenon Level Building Assets",
+        "description": "Contains the assets to build Xenon-Runner Levels, I higly recommend you start by modding this and uploading it as your own.",
+        "path": "Samples~/XenonLevelBuildingAssets"
+    }
+  ]
 }
