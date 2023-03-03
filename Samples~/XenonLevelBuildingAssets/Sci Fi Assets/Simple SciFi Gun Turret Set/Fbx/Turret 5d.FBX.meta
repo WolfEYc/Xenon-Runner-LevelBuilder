@@ -1,0 +1,143 @@
+fileFormatVersion: 2
+guid: ee3ac8740d8342b43ae8e1b31737502a
+timeCreated: 1489663219
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Base
+    100002: BaseElement
+    100004: Gun
+    100006: Gun 1
+    100008: Gun 2
+    100010: GunBase
+    100012: GunBase 1
+    100014: GunElement
+    100016: GunElement 1
+    100018: GunElement 2
+    100020: GunElement 3
+    100022: GunSupport
+    100024: //RootNode
+    100026: TurretBase
+    100028: TurretElement
+    400000: Base
+    400002: BaseElement
+    400004: Gun
+    400006: Gun 1
+    400008: Gun 2
+    400010: GunBase
+    400012: GunBase 1
+    400014: GunElement
+    400016: GunElement 1
+    400018: GunElement 2
+    400020: GunElement 3
+    400022: GunSupport
+    400024: //RootNode
+    400026: TurretBase
+    400028: TurretElement
+    2300000: Base
+    2300002: BaseElement
+    2300004: Gun
+    2300006: Gun 1
+    2300008: Gun 2
+    2300010: GunBase
+    2300012: GunBase 1
+    2300014: GunElement
+    2300016: GunElement 1
+    2300018: GunElement 2
+    2300020: GunElement 3
+    2300022: GunSupport
+    2300024: TurretBase
+    2300026: TurretElement
+    3300000: Base
+    3300002: BaseElement
+    3300004: Gun
+    3300006: Gun 1
+    3300008: Gun 2
+    3300010: GunBase
+    3300012: GunBase 1
+    3300014: GunElement
+    3300016: GunElement 1
+    3300018: GunElement 2
+    3300020: GunElement 3
+    3300022: GunSupport
+    3300024: TurretBase
+    3300026: TurretElement
+    4300000: Base
+    4300002: TurretBase
+    4300004: TurretElement
+    4300006: BaseElement
+    4300008: Gun
+    4300010: GunElement
+    4300012: GunElement
+    4300014: GunElement
+    4300016: Gun
+    4300018: GunSupport
+    4300020: Gun
+    4300022: GunBase
+    4300024: GunBase
+    4300026: GunElement
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
