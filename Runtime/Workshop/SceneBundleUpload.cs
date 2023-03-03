@@ -32,7 +32,7 @@ namespace SpeedrunSim
         
         public void Upload()
         {
-            if(publishedExistingFile.m_PublishedFileId == 0 || _updating)
+            if(publishedExistingFile.m_PublishedFileId != 0 || _updating)
             {
                 Debug.LogWarning("Already Created or Updating");
                 return;
@@ -45,6 +45,7 @@ namespace SpeedrunSim
             itemData.previewImageFile = Path.GetFullPath(itemData.previewImageFile);
             
             RenameLevelFile();
+            
             
             UserGeneratedContent.Client.CreateItem(itemData, CreationCallback);
         }
