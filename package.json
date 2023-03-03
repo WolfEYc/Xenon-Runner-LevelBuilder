@@ -1,0 +1,25 @@
+{
+  "name": "com.smashshipstudios.xenonrunner",
+  "version": "1.0.0",
+  "displayName": "Xenon-Runner level builder",
+  "description": "Build your own custom Xenon-Runner levels to upload to the steam workshop for others to run",
+  "unity": "2022.2",
+  "unityRelease": "9f1",
+  "documentationUrl": "",
+  "changelogUrl": "",
+  "licensesUrl": "",
+  "keywords": [
+    "Xenon"
+  ],
+  "author": {
+    "name": "Wolfey Gamedev",
+    "email": "wolfeygamedev@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "dependencies": {
+    "com.unity.probuilder": "5.0.6",
+    "com.unity.visualeffectgraph": "14.0.6",
+    "com.unity.shadergraph": "14.0.6",
+    "com.unity.textmeshpro": "3.0.6"
+  }
+}
