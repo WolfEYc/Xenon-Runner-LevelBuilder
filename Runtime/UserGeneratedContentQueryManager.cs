@@ -156,9 +156,12 @@ namespace HeathenEngineering.SteamworksIntegration
         public void SearchExact(IEnumerable<PublishedFileId_t> fileIDs)
         {
             activeQuery = UgcQuery.Create(fileIDs);
-            
+
             if (activeQuery.handle != UGCQueryHandle_t.Invalid)
+            {
+                activeQuery.SetReturnMetadata(true);
                 activeQuery.Execute(HandleOfficialResults);
+            }
             else
                 Debug.LogError("Unable to send official maps query, Invalid handle");
             

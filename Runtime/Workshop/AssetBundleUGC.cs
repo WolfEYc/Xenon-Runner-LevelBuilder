@@ -13,7 +13,7 @@ namespace SpeedrunSim
         public bool SceneReadyToLoad => _singleSceneAssetBundle != null;
         public bool Installed => CommunityItem.IsInstalled && !CommunityItem.IsNeedsUpdate;
 
-        string AssetFilePath => Path.Join(CommunityItem.FolderPath, "level");
+        string AssetFilePath => Path.Join(CommunityItem.FolderPath, CommunityItem.metadata);
 
         bool _loading;
         

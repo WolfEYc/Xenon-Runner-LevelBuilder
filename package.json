@@ -1,6 +1,6 @@
 {
   "name": "com.smashshipstudios.xenonrunner",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "displayName": "Xenon-Runner level builder",
   "description": "Build your own custom Xenon-Runner levels to upload to the steam workshop for others to run\n You must also install\n https://github.com/heathen-engineering/SystemCore.git?path=/com.heathen.systemcore \n https://github.com/rlabrecque/Steamworks.NET.git?path=/com.rlabrecque.steamworks.net \n https://github.com/Unity-Technologies/AssetBundles-Browser.git",
   "unity": "2022.2",

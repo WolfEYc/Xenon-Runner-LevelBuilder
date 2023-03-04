@@ -1044,6 +1044,7 @@ namespace HeathenEngineering.SteamworksIntegration.API
                 }
                 
                 var query = UgcQuery.Create(subscribedFileIds);
+                query.SetReturnMetadata(true);
 
                 bool waiting = true;
                 query.Execute((r =>

@@ -24,12 +24,7 @@ namespace SpeedrunSim
             _updating = false;
         }
 
-        void RenameLevelFile()
-        {
-            File.Move(bundleFilePath, Path.Join(itemData.contentFolder, "level"));
-        }
 
-        
         public void Upload()
         {
             if(publishedExistingFile.m_PublishedFileId != 0 || _updating)
@@ -44,7 +39,6 @@ namespace SpeedrunSim
             itemData.contentFolder = Path.GetFullPath(itemData.contentFolder);
             itemData.previewImageFile = Path.GetFullPath(itemData.previewImageFile);
             
-            RenameLevelFile();
             
             
             UserGeneratedContent.Client.CreateItem(itemData, CreationCallback);
@@ -60,9 +54,7 @@ namespace SpeedrunSim
             _updating = true;
             return true;
         }
-        
 
-        
         public void UpdateTitle()
         {
             if(!UpdateBoiler(out UGCUpdateHandle_t updateHandle)) return;
@@ -89,7 +81,6 @@ namespace SpeedrunSim
             
             itemData.contentFolder = Path.GetFullPath(itemData.contentFolder);
             bundleFilePath = Path.GetFullPath(bundleFilePath);
-            RenameLevelFile();
 
             UserGeneratedContent.Client.SetItemContent(updateHandle, itemData.contentFolder);
                 
