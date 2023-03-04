@@ -23,6 +23,6 @@ MonoBehaviour:
     youTubeIds: []
     tags: []
     visibility: 0
-  bundleFilePath: AssetBundles\StandaloneWindows\MyFirstWorkshopLevel\myfirstworkshoplevel
+  bundleFilePath: AssetBundles\StandaloneWindows\MyFirstLevel\level
   publishedExistingFile:
     m_PublishedFileId: 0
