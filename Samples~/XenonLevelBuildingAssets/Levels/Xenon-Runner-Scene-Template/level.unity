@@ -23016,7 +23016,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   leaderboardId:
-    m_SteamLeaderboard: 10241315
+    m_SteamLeaderboard: 0
   leaderboardManager: {fileID: 4361126324171235336}
   myRecord: {fileID: 8399325345130856484}
   topTenRecords:
@@ -28731,7 +28731,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcc7e6305f98fc547b99dab7e2523a5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leaderboard: {fileID: -2100266964750496390, guid: 6c817f0bbe2b2e343854ba8c623efcc9,
+  leaderboard: {fileID: -2100266964750496390, guid: 1e06e9f8f957566459d684a44795ff3d,
     type: 2}
   evtUserEntryUpdated:
     m_PersistentCalls:

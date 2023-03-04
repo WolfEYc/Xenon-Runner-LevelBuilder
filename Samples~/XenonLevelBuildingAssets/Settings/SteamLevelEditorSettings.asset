@@ -18,7 +18,7 @@ MonoBehaviour:
   leaderboardName: MyLeaderboardName
   maxDetailEntries: 0
   leaderboardId:
-    m_SteamLeaderboard: 10241315
+    m_SteamLeaderboard: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
