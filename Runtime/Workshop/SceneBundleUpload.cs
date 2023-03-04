@@ -103,7 +103,7 @@ namespace SpeedrunSim
             
             itemData.previewImageFile = Path.GetFullPath(itemData.previewImageFile);
             
-            UserGeneratedContent.Client.SetItemPreview(updateHandle, itemData.contentFolder);
+            UserGeneratedContent.Client.SetItemPreview(updateHandle, itemData.previewImageFile);
                 
             UserGeneratedContent.Client.SubmitItemUpdate(updateHandle, "updated preview image", ItemUpdated);
         }
@@ -113,7 +113,7 @@ namespace SpeedrunSim
         {
             if(!UpdateBoiler(out UGCUpdateHandle_t updateHandle)) return;
             
-            UserGeneratedContent.Client.SetItemMetadata(updateHandle, itemData.contentFolder);
+            UserGeneratedContent.Client.SetItemMetadata(updateHandle, itemData.metadata);
                 
             UserGeneratedContent.Client.SubmitItemUpdate(updateHandle, "updated metadata", ItemUpdated);
         }
