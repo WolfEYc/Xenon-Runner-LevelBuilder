@@ -36,7 +36,7 @@ public class SceneBundleUploadEditor : Editor
         
         if(GUILayout.Button("UpdatedPreviewImageFile", GUILayout.Height(30)))
         {
-            sceneBundleUpload.UpdatedPreviewImageFile();
+            sceneBundleUpload.UpdatePreviewImageFile();
             return;
         }
         

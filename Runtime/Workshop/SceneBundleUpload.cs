@@ -87,6 +87,8 @@ namespace SpeedrunSim
         {
             if(!UpdateBoiler(out UGCUpdateHandle_t updateHandle)) return;
             
+            itemData.contentFolder = Path.GetFullPath(itemData.contentFolder);
+            bundleFilePath = Path.GetFullPath(bundleFilePath);
             RenameLevelFile();
 
             UserGeneratedContent.Client.SetItemContent(updateHandle, itemData.contentFolder);
@@ -95,9 +97,11 @@ namespace SpeedrunSim
         }
         
         
-        public void UpdatedPreviewImageFile()
+        public void UpdatePreviewImageFile()
         {
             if(!UpdateBoiler(out UGCUpdateHandle_t updateHandle)) return;
+            
+            itemData.previewImageFile = Path.GetFullPath(itemData.previewImageFile);
             
             UserGeneratedContent.Client.SetItemPreview(updateHandle, itemData.contentFolder);
                 
