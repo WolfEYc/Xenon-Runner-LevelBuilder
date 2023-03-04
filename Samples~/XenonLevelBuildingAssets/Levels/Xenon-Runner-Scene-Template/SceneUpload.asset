@@ -18,7 +18,8 @@ MonoBehaviour:
     title: MyFirstWorkshopLevel
     description: First steam workshop level!
     contentFolder: AssetBundles\StandaloneWindows\MyFirstLevel
-    previewImageFile: Packages/com.smashshipstudios.xenonrunner/Samples/Levels/Xenon-Runner-Scene-Template/CheckeredFlags.png
+    previewImageFile: Assets/Samples/Xenon-Runner level builder/1.0.8/Xenon Level
+      Building Assets/Levels/Xenon-Runner-Scene-Template/CheckeredFlags.png
     metadata: 
     youTubeIds: []
     tags: []
